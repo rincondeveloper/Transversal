@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: #f5f5f7;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 0;
+  width: 100%;
+  background-color: #121212;
+  color: #d0d0d0;
+}
+.container__header__menu {
+  width: 55%;
+}
+.container__header__menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+.container__header__menu ul li {
+  font-size: 0.7em;
+  cursor: pointer;
+}
+.container__header__menu ul li i {
+  font-size: 1.1em;
+}
+.container__header__menu ul li a {
+  color: #d0d0d0;
+  padding-left: 0.5em;
+}/*# sourceMappingURL=style.css.map */
